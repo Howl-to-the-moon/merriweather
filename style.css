@@ -1,0 +1,23 @@
+.nav {
+    display:inline;
+    float: left;
+
+a:link, a:visited {
+    background-color: #634636;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    margin: auto;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: #352218;
+    transition-duration: 1s;
+    transition-property: background-color, color;
+}
+
+}
+
