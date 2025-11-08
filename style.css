@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(rgb(0, 89, 255), rgb(104, 237, 255), rgb(2, 255, 2));
     background-size: cover;
     background-repeat: no-repeat;
