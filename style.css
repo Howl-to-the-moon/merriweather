@@ -63,7 +63,7 @@ a {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: rgb(2, 255, 2)s;
     flex: 0;
     color: white;
