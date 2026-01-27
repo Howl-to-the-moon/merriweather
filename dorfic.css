@@ -5,32 +5,27 @@
 body{
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: orange;
+    background-color: wheat;
 }
 
-h1 {
-    color: antiquewhite;
-    font-weight: 1000;
-    font-size: 2rem;
-}
 
 /*Classes*/
 
+.containerOne{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 15px;
+}
+
 .header{
-    background: linear-gradient(to right, orange, white);
-
+    grid-column: 1 / 3;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-
-    padding: 10px;
-
-    position: sticky;
-    top: 0;
-
-    box-shadow: 0px 2px 3px linear-gradient(to right, white, darkorange);
+    align-items: center;
+    padding: 0px 30px;
+    background-color: rgb(252, 174, 5);
+    color: white;
+   
 }
 
 .link{
@@ -38,10 +33,55 @@ h1 {
 
 }
 
+
+.sideSelect{
+    grid-column: 1 / 2;
+}
+
+
+
+.article{
+    grid-column: 2 / 3;
+   
+    
+}
+
+.articleHead{
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+    font-size: 2rem
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p {
+    width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer{
+    grid-column: 1 / 3;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 174, 5);
+    color: white;
+    font-size: 32px;
+}
+
+/* so i can see shit */
+
+.header, .sideSelect, .articleHead, .article, .content,  .footer{
+    border: 4px solid red;
+
+}
+
 /*Ids*/
 
-#headerLink{
-    color: orange;
-    font-size: 2rem;
-}
 

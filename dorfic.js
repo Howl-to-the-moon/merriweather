@@ -1,9 +1,1 @@
-/*
-let headerLink = document.querySelector("#headerLink");
-
-headerLink.addEventListener("mouseover", () => {
-    
-    headerLink.textContent = "please.";
-    headerLink.color = "orange";
-})
-*/
+/* Probably Needed to do the side bar button stuff i wanna do */
